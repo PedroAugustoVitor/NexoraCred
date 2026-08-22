@@ -75,7 +75,7 @@ export default {
     },
     copy: function () {
       let flag = this.selectedGroup?.name ?? ''
-      let e = `Simulador SertãoCred
+      let e = `Simulador NexoraCred
 Bandeiras consideradas: ${flag}
 Será cobrado no cartão: ${this.result.willCharge}.
 Você receberá: ${this.result.willReceive}.
